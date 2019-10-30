@@ -1,0 +1,242 @@
+body{
+	background-color: lightgray;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.box1{
+	width: 100px;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.circle1{
+	width: 70px;
+	height: 70px;
+	background-color: green;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.circle1_1{
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	 border-radius: 50%;
+}
+.box2{	
+	width: 100px;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.circle2_1{
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	 border-radius: 50%;
+}
+.circle2_2{
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	 border-radius: 50%;
+}
+.box3{
+	width: 100px;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	
+	
+}
+.box3 .circle3_2:nth-of-type(2) {
+	align-self: center;
+	
+}
+.box3 .circle3_3:nth-of-type(3) {
+  align-self: flex-end;	
+}
+.circle3_1{
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	 border-radius: 50%;
+}
+.circle3_2{
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	 border-radius: 50%;
+}
+.circle3_3{
+	width: 40px;
+	height: 40px;
+	background-color: green;
+	 border-radius: 50%;
+}
+.box4{
+	width: 100px;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;	
+}
+.circle4_1,.circle4_4{
+	width: 40px;
+	height: 40px;
+	background-color: green ;
+	 border-radius: 50%;	
+}
+.circle4_2,.circle4_3{
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	 border-radius: 50%;
+}
+.box5{
+	width: 100px;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.box5_1{	
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;	
+}
+.box5_2{	
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+.box5_3{
+	display: flex;	
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.circle5_1_1,.circle5_3_2{
+	width: 40px;
+	height: 40px;
+	background-color: green;
+	 border-radius: 50%;
+}
+.circle5_2{
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	 border-radius: 50%;
+}
+.circle5_1_2,.circle5_3_1{
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	 border-radius: 50%;
+}
+.box6{
+	width: 100px;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.box6_1{
+	width: 100px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;	
+}
+.box6_2{
+	display: flex;
+	flex-wrap: wrap;
+	width: 70px;
+	height: 60px;
+	justify-content: center;
+	align-items: flex-start;
+}
+.circle6_1_1,.circle6_1_2{
+	width: 30px;
+	height: 30px;
+	background-color: green;
+	 border-radius: 50%;
+}
+.circle6_2_1,.circle6_2_2,.circle6_2_3,.circle6_2_4{
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	 border-radius: 50%;
+}
+.box7{
+	width: 100px;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.box7_1{
+	width: 100px;
+	height: 70px;
+	display: flex;
+	justify-content: center;	
+}
+.box7_1 .circle7_1_2:nth-of-type(2) {
+  align-self: center;	
+}
+.box7_1 .circle7_1_3:nth-of-type(3) {
+  align-self: flex-end;	
+}
+.circle7_1_2,.circlr7_1_1,.circle7_1_3{
+	width: 30px;
+	height: 30px;
+	background-color: green;
+	 border-radius: 50%;
+}
+.box7_2{
+	width: 70px;
+	height: 60px;
+	display: flex;	
+	flex-wrap: wrap;
+}
+.circle7_2_1,.circle7_2_2,.circle7_2_3,.circle7_2_4{
+	width: 30px;
+	height: 30px;
+	background-color: red ;
+	 border-radius: 50%;
+}
+.box8{
+	width: 100px;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+.box8_1{
+	width: 80px;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.circle8_1,.circle8_2,.circle8_3,.circle8_4,.circle8_5,.circle8_6,.circle8_7,.circle8_8{
+	width: 30px;
+	height: 30px;
+	background-color: black ;
+	 border-radius: 50%;
+}
+
