@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>localhost</title>
+		<link rel="stylesheet" href="css/需求1.css" type="text/css">
+	</head>
+	<body>
+		<div class="block">
+		<!--这里是整个登录框-->
+		<div class ="box1">
+			<!--这里是图片-->
+			<img src="https://pass-y.ncuos.com/%E5%87%BA%E8%93%9D%E7%BB%88logo.png?imageMogr2/format/webp/blur/1x0/quality/75|imageslim" align="center">
+			<!--这里是图片-->
+			<p><strong>登录</strong></p>
+			<!--这里是表单-->
+			<form action="/action_page.php">
+			    <input type="text"  placeholder="请输入学号">
+				<input type="text"  placeholder="请输入密码">
+				<input type="submit" value="login" id="submit">
+			</form>
+			<!--这里是表单-->
+		</div>  
+		<!--这里是整个登录框-->
+		</div>
+	<script type="text/javascript">
+		function pop-up()
+		{
+		var xmlhttp;
+		if (window.XMLHttpRequest){
+		  xmlhttp=new XMLHttpRequest();
+		  }
+		else{
+		  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		  }
+		xmlhttp.onreadystatechange=function()
+		  {
+		  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		    {
+		    document.getElementById("submit").innerHTML=xmlhttp.responseText;
+		    }
+		  }
+		xmlhttp.open("GET","https://os.ncuos.com/api/user/profile/basic",true);
+		xmlhttp.send();
+		}
+		
+		
+	</script>
+	</body>
+</html>
